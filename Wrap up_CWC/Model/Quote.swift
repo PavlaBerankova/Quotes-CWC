@@ -11,6 +11,7 @@ class Quote: Identifiable, Codable {
     
     var id:UUID?
     var author: String
+    var image: String
     var title: String
-    var quotes: [String]
+    var description: [String]
 }

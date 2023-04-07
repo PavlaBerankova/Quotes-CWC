@@ -13,13 +13,13 @@ struct QuoteListView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                ForEach(model.quotes) { quote in
-                    Text(quote.author)
+                VStack {
+                    ForEach(model.quotes) { quote in
+                        QuoteView(quote: quote)
+                    }
                 }
             }
-            .navigationTitle("Quotes")
         }
-       
     }
 }
 
