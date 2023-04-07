@@ -15,11 +15,13 @@ struct DescriptionView: View {
             Text(description.author)
                 .font(.title)
                 .bold()
+                .padding(.top, 30)
             
             ForEach(0..<description.quotes.count, id: \.self) { index in
                 Text(description.quotes[index])
                     .font(.title2)
             }
+            Spacer()
         }
         .padding(.horizontal, 30)
     }
