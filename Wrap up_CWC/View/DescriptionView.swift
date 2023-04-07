@@ -11,7 +11,17 @@ struct DescriptionView: View {
     var description: Quote
     
     var body: some View {
-        Text(description.description[0])
+        VStack(alignment: .leading, spacing: 20) {
+            Text(description.author)
+                .font(.title)
+                .bold()
+            
+            ForEach(0..<description.quotes.count, id: \.self) { index in
+                Text(description.quotes[index])
+                    .font(.title2)
+            }
+        }
+        .padding(.horizontal, 30)
     }
 }
 
@@ -19,6 +29,6 @@ struct DescriptionView_Previews: PreviewProvider {
     static var previews: some View {
         let model = QuoteModel()
         
-        DescriptionView(description: model.quotes[0])
+        DescriptionView(description: model.quotes[1])
     }
 }

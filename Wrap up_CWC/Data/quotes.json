@@ -1,52 +1,52 @@
 [
   {
-    "author": "- Charles R. Swindoll",
+    "author": "Charles R. Swindoll",
     "title": "Life is 10% what happens to you and 90% how you react to it",
     "image": "ambition",
-    "description": [
+    "quotes": [
       "Each day of our lives we make deposits in the memory banks of our children.",
       "A family is a place where principles are hammered and honed on the anvil of everyday living.",
       "The secret of living a life of excellence is merely a matter of thinking thoughts of excellence. Really, it's a matter of programming our minds with the kind of information that will set us free."
     ]
   },
   {
-    "author": "- Saumuel Beckett",
+    "author": "Saumuel Beckett",
     "title": "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
     "image": "calm",
-    "description": [
+    "quotes": [
       "If you do not love me I shall not be loved If I do not love you I shall not love.",
       "We are all born mad. Some remain so.",
       "Habit is a great deadener."
     ]
   },
   {
-    "author": "- Benjamin Franklin",
+    "author": "Benjamin Franklin",
     "title": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
     "image": "focus",
-    "description": [
-      "If you do not love me I shall not be loved If I do not love you I shall not love.",
-      "We are all born mad. Some remain so.",
-      "Habit is a great deadener."
+    "quotes": [
+      "Early to bed and early to rise makes a man healthy, wealthy and wise.",
+      "Money has never made man happy, nor will it, there is nothing in its nature to produce happiness. The more of it one has the more one wants.",
+      "Guests, like fish, begin to smell after three days."
     ]
   },
   {
-    "author": "- Robert Fulghum",
+    "author": "Robert Fulghum",
     "title": "Don't worry that children never listen to you; worry that they are always watching you.",
     "image": "reflect",
-    "description": [
-      "If you do not love me I shall not be loved If I do not love you I shall not love.",
-      "We are all born mad. Some remain so.",
-      "Habit is a great deadener."
+    "quotes": [
+      "It will be a great day when our schools have all the money they need, and our air force has to have a bake-sale to buy a bomber.",
+      "Sticks and stones will break our bones, but words will break our hearts.",
+      "Clean up your own mess."
     ]
   },
   {
-    "author": "- Stephen Hawking",
+    "author": "Stephen Hawking",
     "title": "Work gives you meaning and purpose and life is empty without it.",
     "image": "reflect2",
-    "description": [
-      "If you do not love me I shall not be loved If I do not love you I shall not love.",
-      "We are all born mad. Some remain so.",
-      "Habit is a great deadener."
+    "quotes": [
+      "People won't have time for you if you are always angry or complaining.",
+      "The past, like the future, is indefinite and exists only as a spectrum of possibilities.",
+      "I am just a child who has never grown up. I still keep asking these 'how' and 'why' questions. Occasionally, I find an answer."
     ]
   }
 ]

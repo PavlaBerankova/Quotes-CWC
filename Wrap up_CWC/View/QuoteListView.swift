@@ -14,11 +14,16 @@ struct QuoteListView: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    ForEach(model.quotes) { quote in
-                        QuoteView(quote: quote)
+                    ForEach(model.quotes) { item in
+                        NavigationLink {
+                            DescriptionView(description: item)
+                        } label: {
+                            QuoteView(quote: item)
+                        }
                     }
                 }
             }
+            .navigationTitle("Quotes")
         }
     }
 }

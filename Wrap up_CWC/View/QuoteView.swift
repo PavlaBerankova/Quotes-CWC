@@ -25,7 +25,7 @@ struct QuoteView: View {
                     .shadow(color: .black, radius: 1, x: 0, y: 2)
                     .foregroundColor(.white)
                     
-                Text(quote.author)
+                Text("- " + quote.author)
                     .padding(.horizontal, 30.0)
                     .padding(.top, 5)
                     .foregroundColor(.white)
