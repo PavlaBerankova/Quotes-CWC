@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Quote {
+class Quote: Identifiable, Codable {
     
     var id:UUID?
     var author: String

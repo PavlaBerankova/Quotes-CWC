@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct QuoteListView: View {
+    @ObservedObject var model = QuoteModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView {
+                ForEach(model.quotes) { quote in
+                    Text(quote.author)
+                }
+            }
+            .navigationTitle("Quotes")
+        }
+       
     }
 }
 
