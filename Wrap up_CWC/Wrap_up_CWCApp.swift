@@ -11,7 +11,7 @@ import SwiftUI
 struct Wrap_up_CWCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuoteListView()
         }
     }
 }
